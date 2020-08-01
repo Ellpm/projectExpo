@@ -51,9 +51,9 @@ const useStyles = makeStyles({
 export default function Hall() {
 	const classes = useStyles();
 
-	// const hall = $('#hall');
-	// const handleClickLeft = () => { $('#left').on('click', function () { $(this).text("Go left" + hall.scrollLeft()); }); };
-	// const handleClickRight = () => { $('#right').on('click', function () { $(this).text("Go right" + hall.scrollRight()); }); };
+	const hall = $('#hall');
+	const handleClickLeft = () => { $('#left').on('click', function () { $(this).text("Go left" + hall.scrollLeft()); }); };
+	const handleClickRight = () => { $('#right').on('click', function () { $(this).text("Go right" + hall.scrollRight()); }); };
 
 	return (
 		<>

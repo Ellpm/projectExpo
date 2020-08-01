@@ -27,22 +27,22 @@ const navigationConfig = [
 
 		]
 	},
-	// {
-	// 	id: 'admin-joins',
-	// 	title: 'Participants',
-	// 	auth: authRoles.admin,
-	// 	type: 'item',
-	// 	icon: 'account_box',
-	// 	url: '/admin/participants'
-	// },
-	// {
-	// 	id: 'admin-stats',
-	// 	title: 'Reports and Statistics',
-	// 	auth: authRoles.admin,
-	// 	type: 'item',
-	// 	icon: 'insert_chart',
-	// 	url: '/admin/statistics'
-	// },
+	{
+		id: 'admin-joins',
+		title: 'Participants',
+		auth: authRoles.admin,
+		type: 'item',
+		icon: 'account_box',
+		url: '/admin/participants'
+	},
+	{
+		id: 'admin-stats',
+		title: 'Reports and Statistics',
+		auth: authRoles.admin,
+		type: 'item',
+		icon: 'insert_chart',
+		url: '/admin/statistics'
+	},
 	{
 		id: 'info',
 		title: 'University Information',
@@ -99,14 +99,14 @@ const navigationConfig = [
 		icon: 'youtube_searched_for',
 		url: '/university/publish'
 	},
-	// {
-	// 	id: 'reports',
-	// 	title: 'Statistics',
-	// 	auth: authRoles.university,
-	// 	type: 'item',
-	// 	icon: 'bar_chart',
-	// 	url: '/university/stats'
-	// },
+	{
+		id: 'reports',
+		title: 'Statistics',
+		auth: authRoles.university,
+		type: 'item',
+		icon: 'bar_chart',
+		url: '/university/stats'
+	},
 	{
 		id: 'representative',
 		title: 'Representatives',
@@ -131,14 +131,14 @@ const navigationConfig = [
 		icon: 'school',
 		url: '/university/schools'
 	},
-	// {
-	// 	id: 'fairs',
-	// 	title: 'All Virtual Fairs',
-	// 	auth: authRoles.university,
-	// 	type: 'item',
-	// 	icon: 'schedule',
-	// 	url: '/university/vfairs'
-	// },
+	{
+		id: 'fairs',
+		title: 'All Virtual Fairs',
+		auth: authRoles.university,
+		type: 'item',
+		icon: 'schedule',
+		url: '/university/vfairs'
+	},
 	{
 		id: 'student-profile',
 		title: 'Profile',
@@ -155,14 +155,14 @@ const navigationConfig = [
 		icon: 'account_circle',
 		url: '/representative/profile'
 	},
-	// {
-	// 	id: 'representative-reports',
-	// 	title: 'Statistics',
-	// 	auth: authRoles.representative,
-	// 	type: 'item',
-	// 	icon: 'bar_chart',
-	// 	url: '/representative/stats'
-	// },
+	{
+		id: 'representative-reports',
+		title: 'Statistics',
+		auth: authRoles.representative,
+		type: 'item',
+		icon: 'bar_chart',
+		url: '/representative/stats'
+	},
 	{
 		id: 'representative-chat',
 		title: 'Open Channels',
@@ -179,22 +179,22 @@ const navigationConfig = [
 		icon: 'account_circle',
 		url: '/school/profile'
 	},
-	// {
-	// 	id: 'school-fairs',
-	// 	title: 'All Virtual Fairs',
-	// 	auth: authRoles.school,
-	// 	type: 'item',
-	// 	icon: 'schedule',
-	// 	url: '/school/vfairs'
-	// },
-	// {
-	// 	id: 'school-participants',
-	// 	title: 'Participants',
-	// 	auth: authRoles.school,
-	// 	type: 'item',
-	// 	icon: 'chat',
-	// 	url: '/school/participants'
-	// },
+	{
+		id: 'school-fairs',
+		title: 'All Virtual Fairs',
+		auth: authRoles.school,
+		type: 'item',
+		icon: 'schedule',
+		url: '/school/vfairs'
+	},
+	{
+		id: 'school-participants',
+		title: 'Participants',
+		auth: authRoles.school,
+		type: 'item',
+		icon: 'chat',
+		url: '/school/participants'
+	},
 	{
 		type: 'divider',
 		id: 'divider-2'

@@ -17,7 +17,7 @@ export default function Status() {
 				<FuseAnimateGroup enter={{ animation: "transition.slideLeftBigIn" }} leave={{ animation: "transition.slideRightBigOut" }}>
     			<div className="flex flex-wrap">
             <div className="w-full p-24">
-							
+							Тут ничего пока нет
             </div>
     			</div>
     		</FuseAnimateGroup>

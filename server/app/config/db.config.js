@@ -1,8 +1,8 @@
 module.exports = {
   HOST: "localhost",
   USER: "root",
-  PASSWORD: "",
-  DB: "vfairs",
+  PASSWORD: "password",
+  DB: "vfairs2",
   dialect: "mysql",
   pool: {
     max: 5,

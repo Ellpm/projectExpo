@@ -12,7 +12,7 @@ class Banners extends Component {
   async getInitialData() {
     var data = [];
     // eslint-disable-next-line
-    await fetch(api + 'banners/get').then(res => res.json()).then(result => { result.map(row => {
+    await fetch(api + 'banners/get:id').then(res => res.json()).then(result => { result.map(row => {
       data.push({
         id: row.id,
         cls: 'banner' + row.position + ' banner',

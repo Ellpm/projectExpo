@@ -137,7 +137,7 @@ export default function Additional() {
 					<div className={classes.chat_area}>
 						<section>
 							<div id="messages"></div>
-							<input id="chat-input" type="text" placeholder="say anything..." autofocus />
+							<input id="chat-input" type="text" placeholder="say anything..." autoFocus />
 						</section>
 					</div>
 					<ChatPanel />
