@@ -23,7 +23,7 @@ function Logo() {
 		<div className={clsx(classes.root, 'flex items-center')}>
 			<img className="logo-icon" src="assets/images/logos/odros.png" alt="logo" />
 			<Typography className="text-16 mx-12 font-light logo-text" color="inherit">
-				Odros | Virtual Fairs
+				Virtual Fairs
 			</Typography>
 		</div>
 	);

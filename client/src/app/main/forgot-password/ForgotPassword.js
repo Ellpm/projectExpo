@@ -46,7 +46,7 @@ export default function ForgotPassword() {
 
 				<FuseAnimate animation="transition.slideUpIn" delay={300}>
 					<Typography variant="h3" color="inherit" className="font-light">
-						Welcome to Odros!
+						Welcome to Fair!
 					</Typography>
 				</FuseAnimate>
 
